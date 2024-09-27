@@ -47,7 +47,7 @@
   --bg-color: #fff1f7;
   }
 
-  .page.theme_light .rec {
+  .rec {
     display: none;
   }
 }

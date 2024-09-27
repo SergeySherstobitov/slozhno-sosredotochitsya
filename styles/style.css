@@ -10,6 +10,13 @@
   color: var(--text-color);
   font-size: var(--main-font-size);
 }
+.theme-dark .page {
+  background-image: url(../images/cover-image-dark.png); 
+}  
+
+.theme-light .page {
+  background-image: url(../images/cover-image-light.png);
+}
 
 .header {
   position: relative;
@@ -149,7 +156,7 @@
   row-gap: 20px;
 }
 
-.section_why .main__section-title {
+.section_why .main__section-title  {
   grid-row: span 2;
 }
 
@@ -160,7 +167,7 @@
   row-gap: 20px;
 }
 
-.section_what .main__section-title {
+.section_what .main__section-title .main__section-title_min {
   grid-column: span 3;
 }
 
@@ -368,6 +375,10 @@
 }
 
 @media (width <= 767px) {
+
+  .page {
+    overflow-x: hidden;
+  }
   .header {
     display: grid;
     padding: 10px;
@@ -462,7 +473,7 @@
   .footer {
     min-height: 668px;
     margin-left: 0px;
-    margin-top: 11px;
+    margin-top: 61px;
   }
 
   .footer-title {
