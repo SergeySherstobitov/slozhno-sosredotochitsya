@@ -72,7 +72,7 @@
 
 .header__theme-menu-list {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   padding: 20px 18px 0px 17px;
   flex-direction: row;
   justify-content: center;
@@ -134,7 +134,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 76px;
   margin-top: 61px;
   padding: 0px 8px 0px 22px;
 }
@@ -152,7 +152,7 @@
 
 .section_what {
   display: grid;
-  grid-template-columns: [one] 315px [two] 315px [three] 315px [four];
+  grid-template-columns: [one] 314px [two] 314px [three] 314px [four];
   grid-template-rows: [row1-start] 50px [row1-end] 400px;
   column-gap: 20px;
   row-gap: 20px;
@@ -180,7 +180,7 @@
 .section_how {
   display: grid;
   grid-template-columns: 333px 650px;
-  padding: 29px 0px 0px 0px;
+  padding: 34px 0px 4px 0px;
 }
 
 .main__section-header {
@@ -236,16 +236,22 @@
 .text-link:focus-visible {
   outline: 1px solid var(--text-color);
 }
-
+/*.section_gallery {
+  gap: 5px;
+}*/
 .section-gallery__wrapper {
   display: grid;
   gap: 20px;
-  grid-template-columns: 312px 317px 314px;
+  grid-template-columns: 312px 316px 313px;
   grid-template-areas:
     "title title title"
     "sunset sunset ice-cream"
     "tape books ice-cream"
     "tape street street";
+}
+
+.title-decor {
+  grid-area: title;
 }
 
 .image {
@@ -495,9 +501,7 @@
   .main__section-text__dofamin {
     padding: 5px 0px 0px 0px;
   }
-  .main__section-block-eat {
-    padding: 1px;
-  }
+  
   .section_what {
     display: flex;
     flex-direction: column;
