@@ -236,9 +236,7 @@
 .text-link:focus-visible {
   outline: 1px solid var(--text-color);
 }
-/*.section_gallery {
-  gap: 5px;
-}*/
+
 .section-gallery__wrapper {
   display: grid;
   gap: 20px;
@@ -250,7 +248,7 @@
     "tape street street";
 }
 
-.title-decor {
+.title-decor_gallery {
   grid-area: title;
 }
 
@@ -287,7 +285,7 @@
   align-items: center;
   min-height: 768px;
   height: 100vh;
-  margin-top: 54px;
+  margin-top: 59px;
   padding: 0px 20px;
 }
 
