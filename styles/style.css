@@ -217,7 +217,7 @@
   color: var(--subtitle-color);
   margin-block-start: 20px;
   line-height: 23.4px;
-  font-size: var(--main-font-size);
+  font-size: var(--spare-font-size);
 }
 
 .text-link {
@@ -323,8 +323,8 @@
   .rec {
     position: absolute;
     text-transform: uppercase;
-    top: 20px;
-    right: 27px;
+    top: 21px;
+    right: 28px;
     color: var(--accent-color);
   }
 
@@ -332,7 +332,7 @@
     text-transform: lowercase;
     background-color: transparent;
     font-size: var(--spare-font-size);
-    line-height: 18px;
+    line-height: 25px;
     padding: 0px;
     cursor: pointer;
     border: 0;
@@ -340,10 +340,10 @@
   }
 
   .header__theme-menu-list {
-    gap: 13px;
+    gap: 11px;
     flex-direction: column;
     place-self: end;
-    padding: 21px 13px 0px 0px;
+    padding: 22px 13px 0px 0px;
   }
 
   .header__title {
@@ -424,7 +424,7 @@
 
   .footer-title {
     font-size: clamp(7.5rem, 0.75rem + 14.0625vw, 9.75rem);
-    margin-top: 2px;
+    margin-top: 1px;
     margin-left: 0px;
   }
 }
@@ -445,9 +445,9 @@
 
   .header__theme-menu-list {
     flex-direction: column;
-    gap: 17px;
+    gap: 11px;
     place-self: end;
-    padding: 21px 1px 0px 0px;
+    padding: 16px 1px 0px 0px;
   }
 
   .header__theme-menu-button {
@@ -471,7 +471,7 @@
 
   .rec {
     right: 18px;
-    top: 10px;
+    top: 11px;
   }
 
   .decorated-zone::after {
@@ -503,7 +503,7 @@
   .section_what {
     display: flex;
     flex-direction: column;
-    gap: 21px;
+    gap: 22px;
   }
 
   .main__section-title_min {
@@ -513,7 +513,7 @@
   .section_how {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 19px;
     padding: 0px 0px 0px 0px;
   }
   .main__section-block-many {
@@ -534,7 +534,7 @@
   .section-gallery__wrapper {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 11px;
     margin-block-start: 0px;
   }
   .main__section-block {
@@ -552,7 +552,7 @@
 
   .footer {
     min-height: 668px;
-    margin-top: 46px;
+    margin-top: 37px;
     padding: 0px 10px 0px 10px;
   }
 
