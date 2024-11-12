@@ -9,6 +9,7 @@
   font-family: var(--main-font-family);
   color: var(--text-color);
   font-size: var(--main-font-size);
+  font-size: var(--spare-font-size);
   overflow-x: hidden;
 }
 
@@ -54,8 +55,8 @@
 .rec {
   position: absolute;
   text-transform: uppercase;
-  top: 20px;
-  right: 27px;
+  top: 22px;
+  right: 28px;
   color: var(--accent-color);
 }
 
@@ -83,7 +84,7 @@
   text-transform: lowercase;
   background-color: transparent;
   font-size: var(--spare-font-size);
-  line-height: 24px;
+  line-height: 25.4px;
   padding: 0 13px;
   cursor: pointer;
   border: 1px solid transparent;
@@ -111,6 +112,7 @@
   font-size: clamp(7.5rem, 0.75rem + 14.0625vw, 9.75rem);
   margin-inline-start: -17px;
   color: var(--title-color);
+  text-shadow: 4px 4px 0px var(--title-shadow-color);
 }
 
 .header__subtitle {
@@ -200,7 +202,8 @@
   font-weight: 700;
 }
 .main__section-title_min {
-  padding: 0px;
+  padding: 2px 0px 0px 0px;
+
 }
 
 .main__section-text {
