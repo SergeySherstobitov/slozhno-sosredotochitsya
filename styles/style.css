@@ -9,8 +9,6 @@
   font-family: var(--main-font-family);
   color: var(--text-color);
   font-size: var(--main-font-size);
-  font-size: var(--spare-font-size);
-  overflow-x: hidden;
 }
 
 .theme-dark .page {
@@ -110,7 +108,7 @@
 
 .header__title {
   font-size: clamp(7.5rem, 0.75rem + 14.0625vw, 9.75rem);
-  margin-inline-start: -17px;
+  margin-inline-start: -18px;
   color: var(--title-color);
   text-shadow: 4px 4px 0px var(--title-shadow-color);
 }
@@ -243,7 +241,7 @@
 .section-gallery__wrapper {
   display: grid;
   gap: 20px;
-  grid-template-columns: 312px 316px 313px;
+  grid-template-columns: 312px 316px 314px;
   grid-template-areas:
     "title title title"
     "sunset sunset ice-cream"
@@ -336,7 +334,7 @@
     background-color: transparent;
     font-size: var(--spare-font-size);
     line-height: 25px;
-    padding: 0px;
+    padding: 0px 12px;
     cursor: pointer;
     border: 0;
     color: var(--button-color);
@@ -346,20 +344,20 @@
     gap: 11px;
     flex-direction: column;
     place-self: end;
-    padding: 22px 13px 0px 0px;
+    padding: 20px 0px 0px 0px;
   }
 
   .header__title {
     font-size: clamp(7.5rem, 0.75rem + 14.0625vw, 9.75rem);
-    margin-top: 7px;
-    margin-inline-start: -16px;
+    margin-top: 4px;
+    margin-inline-start: -20px;
   }
 
   .header__subtitle {
     display: flex;
     margin: auto 0;
     line-height: 23.4px;
-    margin-top: 130px;
+    margin-top: 132px;
     width: clamp(355px, 50%, 491px);
     justify-self: end;
   }
@@ -411,24 +409,23 @@
   }
 
   .section_gallery {
-    padding: 6px 20px 0px 9px;
+    padding: 5px 20px 0px 9px;
   }
 
   .section-gallery__wrapper {
-    grid-template-columns: 232px 232px 232px;
-    gap: 19px;
+    grid-template-columns: 229px 229px 230px;
+    gap: 20px;
     margin-bottom: 0px;
   }
 
   .footer {
     padding: 0px 20px;
-    margin-top: 56px;
+    margin-top: 61px;
   }
 
   .footer-title {
     font-size: clamp(7.5rem, 0.75rem + 14.0625vw, 9.75rem);
-    margin-top: 1px;
-    margin-left: 0px;
+    
   }
 }
 
@@ -448,20 +445,21 @@
 
   .header__theme-menu-list {
     flex-direction: column;
-    gap: 11px;
+    gap: 9px;
     place-self: end;
-    padding: 16px 1px 0px 0px;
+    padding: 16px 0px 0px 0px;
   }
 
   .header__theme-menu-button {
     display: flex;
+    padding: 0px 12px;
   }
 
   .header__title {
     word-wrap: break-word;
-    line-height: 93.4px;
-    margin-top: 6px;
-    margin-inline-start: 1px;
+    line-height: 96.4px;
+    margin-top: 2px;
+    margin-inline-start: 0px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
@@ -537,7 +535,7 @@
   .section-gallery__wrapper {
     display: flex;
     flex-direction: column;
-    gap: 11px;
+    gap: 10px;
     margin-block-start: 0px;
   }
   .main__section-block {
@@ -555,12 +553,11 @@
 
   .footer {
     min-height: 668px;
-    margin-top: 37px;
+    margin-top: 42px;
     padding: 0px 10px 0px 10px;
   }
 
   .footer-title {
-    margin-left: 0px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
