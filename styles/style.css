@@ -76,6 +76,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-size: var(--spare-font-size);
 }
 
 .header__theme-menu-button {
@@ -201,7 +202,6 @@
 }
 .main__section-title_min {
   padding: 2px 0px 0px 0px;
-
 }
 
 .main__section-text {
@@ -425,7 +425,6 @@
 
   .footer-title {
     font-size: clamp(7.5rem, 0.75rem + 14.0625vw, 9.75rem);
-    
   }
 }
 
@@ -500,7 +499,7 @@
   .main__section-text__dofamin {
     padding: 5px 0px 0px 0px;
   }
-  
+
   .section_what {
     display: flex;
     flex-direction: column;
