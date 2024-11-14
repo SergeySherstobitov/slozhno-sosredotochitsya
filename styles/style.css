@@ -342,7 +342,7 @@
     gap: 11px;
     flex-direction: column;
     place-self: end;
-    padding: 20px 0px 0px 0px
+    padding: 20px 0px 0px 0px;
     font-size: var(--spare-font-size);
   }
 
