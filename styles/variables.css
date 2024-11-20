@@ -6,8 +6,10 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --subtitle-color: #000028;
   --title-color: #db00ff;
+  --subtitle-color: #000028;
+  --border-color_hover: #ff007066;
+  --border-color_active: #353430;
   --accent-color: #ff0070;
   --title-shadow-color: #ff0070;
   --decorated-color: #ff0070;
@@ -18,5 +20,5 @@
   --main-font-size: 16px;
   --spare-font-size: 18px;
   --main-font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
