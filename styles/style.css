@@ -214,7 +214,7 @@
 }
 
 .main__section-subtitle {
-  font-weight: 700;
+  font-weight: 400;
   background-color: var(--accent-color);
   color: var(--subtitle-color);
   margin-block-start: 20px;
@@ -513,8 +513,8 @@
   .section_how {
     display: flex;
     flex-direction: column;
-    gap: 19px;
-    padding: 0px 0px 0px 0px;
+    gap: 17px;
+    padding: 3px 0px 0px 0px;
   }
   .main__section-block-many {
     padding: 0px;
@@ -557,6 +557,8 @@
   }
 
   .footer-title {
+    margin-left: 1px;
+    margin-top: 2px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
