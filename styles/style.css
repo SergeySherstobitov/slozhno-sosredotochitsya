@@ -487,7 +487,7 @@
   .main {
     padding-inline: 10px;
     gap: 50px;
-    margin-top: 40px;
+    margin-top: 38px;
   }
 
   .section_why {
@@ -497,7 +497,7 @@
   }
 
   .main__section-text__dofamin {
-    padding: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
   }
 
   .section_what {
