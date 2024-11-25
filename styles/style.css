@@ -216,7 +216,7 @@
 
 .text-link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--title-shadow-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .text-link:hover {
